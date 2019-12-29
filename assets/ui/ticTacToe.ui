@@ -1,0 +1,194 @@
+{
+  "type": "TicTacToeScreen",
+  "contents": {
+    "type": "relativeLayout",
+    "contents": [
+      {
+        "type": "UIBox",
+        "layoutInfo": {
+          "width": 185,
+          "height": 250,
+          "position-horizontal-center": {},
+          "position-vertical-center": {}
+        },
+        "content": {
+          "type": "relativeLayout",
+          "contents": [
+            {
+              "type": "UIButton",
+              "id": "button1",
+              "layoutInfo": {
+                "width": 50,
+                "height": 50
+              }
+            },
+            {
+              "type": "UIButton",
+              "id": "button2",
+              "layoutInfo": {
+                "position-left": {
+                  "widget": "button1",
+                  "target": "RIGHT",
+                  "offset": 5
+                },
+                "width": 50,
+                "height": 50
+              }
+            },
+            {
+              "type": "UIButton",
+              "id": "button3",
+              "layoutInfo": {
+                "position-left": {
+                  "widget": "button2",
+                  "target": "RIGHT",
+                  "offset": 5
+                },
+                "width": 50,
+                "height": 50
+              }
+            },
+            {
+              "type": "UIButton",
+              "id": "button4",
+              "layoutInfo": {
+                "position-top": {
+                  "widget": "button1",
+                  "target": "BOTTOM",
+                  "offset": 5
+                },
+                "width": 50,
+                "height": 50
+              }
+            },
+            {
+              "type": "UIButton",
+              "id": "button5",
+              "layoutInfo": {
+                "position-bottom": {
+                  "target": "BOTTOM",
+                  "offset": 0,
+                  "widget": "button4"
+                },
+                "width": 50,
+                "height": 50,
+                "position-left": {
+                  "offset": 55,
+                  "target": "LEFT"
+                }
+              }
+            },
+            {
+              "type": "UIButton",
+              "id": "button6",
+              "layoutInfo": {
+                "position-bottom": {
+                  "target": "BOTTOM",
+                  "offset": 0,
+                  "widget": "button4"
+                },
+                "width": 50,
+                "height": 50,
+                "position-left": {
+                  "offset": 110,
+                  "target": "LEFT"
+                }
+              }
+            },
+            {
+              "type": "UIButton",
+              "id": "button7",
+              "layoutInfo": {
+                "position-top": {
+                  "widget": "button4",
+                  "target": "BOTTOM",
+                  "offset": 5
+                },
+                "width": 50,
+                "height": 50
+              }
+            },
+            {
+              "type": "UIButton",
+              "id": "button8",
+              "layoutInfo": {
+                "position-bottom": {
+                  "target": "BOTTOM",
+                  "offset": 0,
+                  "widget": "button7"
+                },
+                "width": 50,
+                "height": 50,
+                "position-left": {
+                  "offset": 55,
+                  "target": "LEFT"
+                }
+              }
+            },
+            {
+              "type": "UIButton",
+              "id": "button9",
+              "layoutInfo": {
+                "position-bottom": {
+                  "target": "BOTTOM",
+                  "offset": 0,
+                  "widget": "button7"
+                },
+                "width": 50,
+                "height": 50,
+                "position-left": {
+                  "offset": 110,
+                  "target": "LEFT"
+                }
+              }
+            },
+            {
+              "type": "UILabel",
+              "id": "yourScore",
+              "layoutInfo": {
+                "position-top": {
+                  "offset": 180,
+                  "target": "TOP"
+                },
+                "position-left": {
+                  "offset": -80,
+                  "target": "LEFT"
+                }
+              },
+              "text": "Your score: 0"
+            },
+            {
+              "type": "UILabel",
+              "id": "cpuScore",
+              "layoutInfo": {
+                "position-left": {
+                  "offset": -80,
+                  "target": "LEFT"
+                },
+                "position-top": {
+                  "offset": 210
+                }
+              },
+              "text": "CPU Score:   0"
+            },
+            {
+              "type": "engine:UIButton",
+              "id": "rematchButton",
+              "layoutInfo": {
+                "width": 100,
+                "height": 40,
+                "position-top": {
+                  "offset": 250
+                },
+                "position-left": {
+                  "offset": 30
+                }
+              },
+              "text": "Rematch"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
