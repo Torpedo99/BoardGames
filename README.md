@@ -1,2 +1,2 @@
 # BoardGames
-A collection of games made using the NUI editor!
+A collection of games made using NUI!
