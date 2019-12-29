@@ -172,7 +172,7 @@
               "text": "CPU Score:   0"
             },
             {
-              "type": "engine:UIButton",
+              "type": "UIButton",
               "id": "rematchButton",
               "layoutInfo": {
                 "width": 100,

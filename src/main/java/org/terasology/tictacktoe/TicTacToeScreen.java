@@ -61,11 +61,11 @@ public class TicTacToeScreen extends CoreScreenLayer {
         board = new char[rows][columns];
         buttons = new UIButton[rows][columns];
 
-        cross = Assets.getTextureRegion("TicTacToe:cross").get();
-        crossedCross = Assets.getTextureRegion("TicTacToe:crossedCross").get();
+        cross = Assets.getTextureRegion("BoardGames:cross").get();
+        crossedCross = Assets.getTextureRegion("BoardGames:crossedCross").get();
 
-        circle = Assets.getTextureRegion("TicTacToe:circle").get();
-        crossedCircle = Assets.getTextureRegion("TicTacToe:crossedCircle").get();
+        circle = Assets.getTextureRegion("BoardGames:circle").get();
+        crossedCircle = Assets.getTextureRegion("BoardGames:crossedCircle").get();
 
         random = new Random();
 
