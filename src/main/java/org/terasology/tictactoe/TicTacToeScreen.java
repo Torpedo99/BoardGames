@@ -13,10 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.terasology.tictacktoe;
+package org.terasology.tictactoe;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.terasology.rendering.assets.texture.TextureRegion;
 import org.terasology.rendering.nui.CoreScreenLayer;
 import org.terasology.rendering.nui.widgets.UIButton;
