@@ -1,0 +1,15 @@
+{
+    "attachmentAllowed": false,
+    "rotation": "horizontal",
+    "tiles": {
+        "sides": "Core:GreenLeaf",
+        "front": "Core:ChestFront",
+        "topBottom": "Core:ChestTopBottom"
+    },
+    "entity": {
+        "prefab": "BoardGames:TicTacToeBlock"
+    },
+    "inventory": {
+        "stackable": false
+    }
+}

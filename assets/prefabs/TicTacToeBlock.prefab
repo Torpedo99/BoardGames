@@ -1,0 +1,12 @@
+{
+    "DisplayName": {
+        "name": "Tic-Tac-Toe Game"
+    },
+    "PlaySoundAction": {
+        "sounds": "engine:click"
+    },
+    "InteractionTarget": {},
+    "InteractionScreen": {
+        "screen": "BoardGames:ticTacToe"
+    }
+}
